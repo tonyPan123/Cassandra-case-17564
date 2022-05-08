@@ -90,4 +90,11 @@ tags
 # Persistent undo
 [._]*.un~
 
+# Temperory or Log File
+conf-*
+store-*
+logs-*
+src-*
+client-*
+
 # End of https://www.toptal.com/developers/gitignore/api/maven,vim,macos,java
