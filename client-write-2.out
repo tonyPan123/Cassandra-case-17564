@@ -1,0 +1,291 @@
+2022-05-08/03:21:35.813  INFO: datastax_3_1_4.CassandraClientMain - My process's pid is 5735
+2022-05-08/03:21:35.814  INFO: datastax_3_1_4.CassandraClientMain - running command [write, 10, 127.0.0.2, 9047]
+2022-05-08/03:21:35.856 DEBUG: core.SystemProperties - com.datastax.driver.NEW_NODE_DELAY_SECONDS is undefined, using default value 1
+2022-05-08/03:21:35.859 DEBUG: core.SystemProperties - com.datastax.driver.NOTIF_LOCK_TIMEOUT_SECONDS is undefined, using default value 60
+2022-05-08/03:21:35.877 DEBUG: core.SystemProperties - com.datastax.driver.USE_NATIVE_CLOCK is undefined, using default value true
+2022-05-08/03:21:36.070  INFO: core.ClockFactory - Using native clock to generate timestamps.
+2022-05-08/03:21:36.077 DEBUG: core.SystemProperties - com.datastax.driver.NON_BLOCKING_EXECUTOR_SIZE is undefined, using default value 20
+2022-05-08/03:21:36.115 DEBUG: core.Cluster - Starting new cluster with contact points [/127.0.0.2:9047]
+2022-05-08/03:21:36.128 DEBUG: logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+2022-05-08/03:21:36.136 DEBUG: internal.PlatformDependent0 - java.nio.Buffer.address: available
+2022-05-08/03:21:36.137 DEBUG: internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2022-05-08/03:21:36.137 DEBUG: internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2022-05-08/03:21:36.137 DEBUG: internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+2022-05-08/03:21:36.138 DEBUG: internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2022-05-08/03:21:36.139 DEBUG: internal.PlatformDependent - Java version: 8
+2022-05-08/03:21:36.139 DEBUG: internal.PlatformDependent - -Dio.netty.noUnsafe: false
+2022-05-08/03:21:36.139 DEBUG: internal.PlatformDependent - sun.misc.Unsafe: available
+2022-05-08/03:21:36.139 DEBUG: internal.PlatformDependent - -Dio.netty.noJavassist: false
+2022-05-08/03:21:36.140 DEBUG: internal.PlatformDependent - Javassist: unavailable
+2022-05-08/03:21:36.140 DEBUG: internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2022-05-08/03:21:36.141 DEBUG: internal.PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+2022-05-08/03:21:36.141 DEBUG: internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-05-08/03:21:36.141 DEBUG: internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2022-05-08/03:21:36.141 DEBUG: internal.PlatformDependent - io.netty.maxDirectMemory: 7393509376 bytes
+2022-05-08/03:21:36.149 DEBUG: core.SystemProperties - com.datastax.driver.FORCE_NIO is undefined, using default value false
+2022-05-08/03:21:36.150  INFO: core.NettyUtil - Did not find Netty's native epoll transport in the classpath, defaulting to NIO.
+2022-05-08/03:21:36.153 DEBUG: channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 40
+2022-05-08/03:21:36.159 DEBUG: nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2022-05-08/03:21:36.159 DEBUG: nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-05-08/03:21:36.173 DEBUG: util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2022-05-08/03:21:36.173 DEBUG: util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+2022-05-08/03:21:36.178 DEBUG: core.SystemProperties - com.datastax.driver.EXTENDED_PEER_CHECK is undefined, using default value true
+2022-05-08/03:21:36.326 DEBUG: Host.STATES - [/127.0.0.2:9047] preparing to open 1 new connections, total = 1
+2022-05-08/03:21:36.329 DEBUG: core.SystemProperties - com.datastax.driver.DISABLE_COALESCING is undefined, using default value false
+2022-05-08/03:21:36.355 DEBUG: buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 40
+2022-05-08/03:21:36.355 DEBUG: buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 40
+2022-05-08/03:21:36.355 DEBUG: buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2022-05-08/03:21:36.355 DEBUG: buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2022-05-08/03:21:36.355 DEBUG: buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2022-05-08/03:21:36.355 DEBUG: buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2022-05-08/03:21:36.355 DEBUG: buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2022-05-08/03:21:36.355 DEBUG: buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2022-05-08/03:21:36.355 DEBUG: buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-05-08/03:21:36.355 DEBUG: buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-05-08/03:21:36.374 DEBUG: internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x6ba25c75356fb116 (took 0 ms)
+2022-05-08/03:21:36.390 DEBUG: buffer.ByteBufUtil - -Dio.netty.allocator.type: unpooled
+2022-05-08/03:21:36.390 DEBUG: buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2022-05-08/03:21:36.390 DEBUG: buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-05-08/03:21:36.412 DEBUG: core.Connection - Connection[/127.0.0.2:9047-1, inFlight=0, closed=false] Connection established, initializing transport
+2022-05-08/03:21:36.425 DEBUG: util.Recycler - -Dio.netty.recycler.maxCapacity.default: 262144
+2022-05-08/03:21:36.426 DEBUG: util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+2022-05-08/03:21:36.441 DEBUG: buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2022-05-08/03:21:36.450 DEBUG: core.SystemProperties - com.datastax.driver.NATIVE_TRANSPORT_MAX_FRAME_SIZE_IN_MB is undefined, using default value 256
+2022-05-08/03:21:36.452 DEBUG: Host.STATES - [/127.0.0.2:9047] Connection[/127.0.0.2:9047-1, inFlight=0, closed=false] Transport initialized, connection ready
+2022-05-08/03:21:36.452 DEBUG: core.ControlConnection - [Control connection] Refreshing node list and token map
+2022-05-08/03:21:36.485 DEBUG: core.ControlConnection - [Control connection] Refreshing schema
+2022-05-08/03:21:36.697 DEBUG: Host.STATES - [Control connection] established to /127.0.0.2:9047
+2022-05-08/03:21:36.698  INFO: core.Cluster - New Cassandra host /127.0.0.1:9047 added
+2022-05-08/03:21:36.699  INFO: core.Cluster - New Cassandra host /127.0.0.2:9047 added
+2022-05-08/03:21:36.699  INFO: core.Cluster - New Cassandra host /127.0.0.3:9047 added
+2022-05-08/03:21:36.701 DEBUG: core.SystemProperties - com.datastax.driver.CHECK_IO_DEADLOCKS is undefined, using default value true
+2022-05-08/03:21:36.704 DEBUG: Host.STATES - [/127.0.0.1:9047] preparing to open 1 new connections, total = 1
+2022-05-08/03:21:36.706 DEBUG: core.Connection - Connection[/127.0.0.1:9047-1, inFlight=0, closed=false] Connection established, initializing transport
+2022-05-08/03:21:36.707 DEBUG: Host.STATES - [/127.0.0.2:9047] preparing to open 1 new connections, total = 2
+2022-05-08/03:21:36.708 DEBUG: Host.STATES - [/127.0.0.3:9047] preparing to open 1 new connections, total = 1
+2022-05-08/03:21:36.708 DEBUG: core.Connection - Connection[/127.0.0.2:9047-2, inFlight=0, closed=false] Connection established, initializing transport
+2022-05-08/03:21:36.709 DEBUG: core.Connection - Connection[/127.0.0.3:9047-1, inFlight=0, closed=false] Connection established, initializing transport
+2022-05-08/03:21:36.715 DEBUG: Host.STATES - [/127.0.0.1:9047] Connection[/127.0.0.1:9047-1, inFlight=0, closed=false] Transport initialized, connection ready
+2022-05-08/03:21:36.718 DEBUG: core.HostConnectionPool - Created connection pool to host /127.0.0.1:9047 (1 connections needed, 1 successfully opened)
+2022-05-08/03:21:36.718 DEBUG: core.Session - Added connection pool for /127.0.0.1:9047
+2022-05-08/03:21:36.718 DEBUG: Host.STATES - [/127.0.0.3:9047] Connection[/127.0.0.3:9047-1, inFlight=0, closed=false] Transport initialized, connection ready
+2022-05-08/03:21:36.718 DEBUG: core.HostConnectionPool - Created connection pool to host /127.0.0.3:9047 (1 connections needed, 1 successfully opened)
+2022-05-08/03:21:36.718 DEBUG: core.Session - Added connection pool for /127.0.0.3:9047
+2022-05-08/03:21:36.721 DEBUG: Host.STATES - [/127.0.0.2:9047] Connection[/127.0.0.2:9047-2, inFlight=0, closed=false] Transport initialized, connection ready
+2022-05-08/03:21:36.721 DEBUG: core.HostConnectionPool - Created connection pool to host /127.0.0.2:9047 (1 connections needed, 1 successfully opened)
+2022-05-08/03:21:36.721 DEBUG: core.Session - Added connection pool for /127.0.0.2:9047
+2022-05-08/03:21:36.743 DEBUG: core.Connection - Connection[/127.0.0.2:9047-2, inFlight=1, closed=false] Setting keyspace gray_space
+2022-05-08/03:21:36.745 DEBUG: core.Connection - Connection[/127.0.0.2:9047-2, inFlight=1, closed=false] Keyspace set to gray_space
+2022-05-08/03:21:36.764  INFO: datastax_3_1_4.CassandraClientMain - progress = 1, time = 960066404
+2022-05-08/03:21:36.768  INFO: datastax_3_1_4.CassandraClientMain - progress = 2, time = 964061365
+2022-05-08/03:21:36.771  INFO: datastax_3_1_4.CassandraClientMain - progress = 3, time = 967931162
+2022-05-08/03:21:36.775  INFO: datastax_3_1_4.CassandraClientMain - progress = 4, time = 971944470
+2022-05-08/03:21:36.780  INFO: datastax_3_1_4.CassandraClientMain - progress = 5, time = 976420032
+2022-05-08/03:21:36.785  INFO: datastax_3_1_4.CassandraClientMain - progress = 6, time = 981063569
+2022-05-08/03:21:36.789  INFO: datastax_3_1_4.CassandraClientMain - progress = 7, time = 985387406
+2022-05-08/03:21:36.793  INFO: datastax_3_1_4.CassandraClientMain - progress = 8, time = 989423389
+2022-05-08/03:21:36.797  INFO: datastax_3_1_4.CassandraClientMain - progress = 9, time = 993027177
+2022-05-08/03:21:36.800  INFO: datastax_3_1_4.CassandraClientMain - progress = 10, time = 996873756
+2022-05-08/03:21:36.804  INFO: datastax_3_1_4.CassandraClientMain - progress = 11, time = 1000665582
+2022-05-08/03:21:36.809  INFO: datastax_3_1_4.CassandraClientMain - progress = 12, time = 1005089529
+2022-05-08/03:21:36.813  INFO: datastax_3_1_4.CassandraClientMain - progress = 13, time = 1009667494
+2022-05-08/03:21:36.818  INFO: datastax_3_1_4.CassandraClientMain - progress = 14, time = 1014747197
+2022-05-08/03:21:36.823  INFO: datastax_3_1_4.CassandraClientMain - progress = 15, time = 1019103806
+2022-05-08/03:21:36.827  INFO: datastax_3_1_4.CassandraClientMain - progress = 16, time = 1023620885
+2022-05-08/03:21:36.832  INFO: datastax_3_1_4.CassandraClientMain - progress = 17, time = 1028346589
+2022-05-08/03:21:36.836  INFO: datastax_3_1_4.CassandraClientMain - progress = 18, time = 1032563865
+2022-05-08/03:21:36.843  INFO: datastax_3_1_4.CassandraClientMain - progress = 19, time = 1039016687
+2022-05-08/03:21:36.847  INFO: datastax_3_1_4.CassandraClientMain - progress = 20, time = 1043659475
+2022-05-08/03:21:36.852  INFO: datastax_3_1_4.CassandraClientMain - progress = 21, time = 1048838595
+2022-05-08/03:21:36.865  INFO: datastax_3_1_4.CassandraClientMain - progress = 22, time = 1061703435
+2022-05-08/03:21:36.882  INFO: datastax_3_1_4.CassandraClientMain - progress = 23, time = 1078883306
+2022-05-08/03:21:36.889  INFO: datastax_3_1_4.CassandraClientMain - progress = 24, time = 1085606982
+2022-05-08/03:21:36.896  INFO: datastax_3_1_4.CassandraClientMain - progress = 25, time = 1092070313
+2022-05-08/03:21:36.903  INFO: datastax_3_1_4.CassandraClientMain - progress = 26, time = 1099080442
+2022-05-08/03:21:36.909  INFO: datastax_3_1_4.CassandraClientMain - progress = 27, time = 1105030151
+2022-05-08/03:21:36.917  INFO: datastax_3_1_4.CassandraClientMain - progress = 28, time = 1113632068
+2022-05-08/03:21:36.927  INFO: datastax_3_1_4.CassandraClientMain - progress = 29, time = 1123191474
+2022-05-08/03:21:36.933  INFO: datastax_3_1_4.CassandraClientMain - progress = 30, time = 1129299238
+2022-05-08/03:21:36.938  INFO: datastax_3_1_4.CassandraClientMain - progress = 31, time = 1134619045
+2022-05-08/03:21:36.943  INFO: datastax_3_1_4.CassandraClientMain - progress = 32, time = 1139716975
+2022-05-08/03:21:36.953  INFO: datastax_3_1_4.CassandraClientMain - progress = 33, time = 1149461000
+2022-05-08/03:21:36.957  INFO: datastax_3_1_4.CassandraClientMain - progress = 34, time = 1153049985
+2022-05-08/03:21:36.960  INFO: datastax_3_1_4.CassandraClientMain - progress = 35, time = 1156743198
+2022-05-08/03:21:36.964  INFO: datastax_3_1_4.CassandraClientMain - progress = 36, time = 1160317511
+2022-05-08/03:21:36.967  INFO: datastax_3_1_4.CassandraClientMain - progress = 37, time = 1163651333
+2022-05-08/03:21:36.971  INFO: datastax_3_1_4.CassandraClientMain - progress = 38, time = 1167031509
+2022-05-08/03:21:36.974  INFO: datastax_3_1_4.CassandraClientMain - progress = 39, time = 1170307164
+2022-05-08/03:21:36.978  INFO: datastax_3_1_4.CassandraClientMain - progress = 40, time = 1173999002
+2022-05-08/03:21:36.981  INFO: datastax_3_1_4.CassandraClientMain - progress = 41, time = 1177682260
+2022-05-08/03:21:36.985  INFO: datastax_3_1_4.CassandraClientMain - progress = 42, time = 1180996754
+2022-05-08/03:21:36.988  INFO: datastax_3_1_4.CassandraClientMain - progress = 43, time = 1184688416
+2022-05-08/03:21:36.992  INFO: datastax_3_1_4.CassandraClientMain - progress = 44, time = 1188135032
+2022-05-08/03:21:36.995  INFO: datastax_3_1_4.CassandraClientMain - progress = 45, time = 1191980446
+2022-05-08/03:21:36.999  INFO: datastax_3_1_4.CassandraClientMain - progress = 46, time = 1195738788
+2022-05-08/03:21:37.002  INFO: datastax_3_1_4.CassandraClientMain - progress = 47, time = 1198915809
+2022-05-08/03:21:37.006  INFO: datastax_3_1_4.CassandraClientMain - progress = 48, time = 1202239215
+2022-05-08/03:21:37.011  INFO: datastax_3_1_4.CassandraClientMain - progress = 49, time = 1207068029
+2022-05-08/03:21:37.014  INFO: datastax_3_1_4.CassandraClientMain - progress = 50, time = 1210726949
+2022-05-08/03:21:37.018  INFO: datastax_3_1_4.CassandraClientMain - progress = 51, time = 1214739216
+2022-05-08/03:21:37.022  INFO: datastax_3_1_4.CassandraClientMain - progress = 52, time = 1218239036
+2022-05-08/03:21:37.031  INFO: datastax_3_1_4.CassandraClientMain - progress = 53, time = 1227198229
+2022-05-08/03:21:37.036  INFO: datastax_3_1_4.CassandraClientMain - progress = 54, time = 1232085732
+2022-05-08/03:21:37.040  INFO: datastax_3_1_4.CassandraClientMain - progress = 55, time = 1236210657
+2022-05-08/03:21:37.044  INFO: datastax_3_1_4.CassandraClientMain - progress = 56, time = 1240483944
+2022-05-08/03:21:37.048  INFO: datastax_3_1_4.CassandraClientMain - progress = 57, time = 1244642223
+2022-05-08/03:21:37.054  INFO: datastax_3_1_4.CassandraClientMain - progress = 58, time = 1250408317
+2022-05-08/03:21:37.061  INFO: datastax_3_1_4.CassandraClientMain - progress = 59, time = 1257922500
+2022-05-08/03:21:37.066  INFO: datastax_3_1_4.CassandraClientMain - progress = 60, time = 1262748171
+2022-05-08/03:21:37.077  INFO: datastax_3_1_4.CassandraClientMain - progress = 61, time = 1273153967
+2022-05-08/03:21:37.083  INFO: datastax_3_1_4.CassandraClientMain - progress = 62, time = 1279576384
+2022-05-08/03:21:37.088  INFO: datastax_3_1_4.CassandraClientMain - progress = 63, time = 1284313503
+2022-05-08/03:21:37.094  INFO: datastax_3_1_4.CassandraClientMain - progress = 64, time = 1290271547
+2022-05-08/03:21:37.111  INFO: datastax_3_1_4.CassandraClientMain - progress = 65, time = 1307574347
+2022-05-08/03:21:37.116  INFO: datastax_3_1_4.CassandraClientMain - progress = 66, time = 1312691975
+2022-05-08/03:21:37.121  INFO: datastax_3_1_4.CassandraClientMain - progress = 67, time = 1317409969
+2022-05-08/03:21:37.128  INFO: datastax_3_1_4.CassandraClientMain - progress = 68, time = 1324307258
+2022-05-08/03:21:37.132  INFO: datastax_3_1_4.CassandraClientMain - progress = 69, time = 1328822684
+2022-05-08/03:21:37.139  INFO: datastax_3_1_4.CassandraClientMain - progress = 70, time = 1335177741
+2022-05-08/03:21:37.147  INFO: datastax_3_1_4.CassandraClientMain - progress = 71, time = 1343241105
+2022-05-08/03:21:37.153  INFO: datastax_3_1_4.CassandraClientMain - progress = 72, time = 1348984439
+2022-05-08/03:21:37.157  INFO: datastax_3_1_4.CassandraClientMain - progress = 73, time = 1353051901
+2022-05-08/03:21:37.162  INFO: datastax_3_1_4.CassandraClientMain - progress = 74, time = 1358088348
+2022-05-08/03:21:37.166  INFO: datastax_3_1_4.CassandraClientMain - progress = 75, time = 1362930372
+2022-05-08/03:21:37.175  INFO: datastax_3_1_4.CassandraClientMain - progress = 76, time = 1371233114
+2022-05-08/03:21:37.179  INFO: datastax_3_1_4.CassandraClientMain - progress = 77, time = 1375721800
+2022-05-08/03:21:37.183  INFO: datastax_3_1_4.CassandraClientMain - progress = 78, time = 1379951779
+2022-05-08/03:21:37.187  INFO: datastax_3_1_4.CassandraClientMain - progress = 79, time = 1383614846
+2022-05-08/03:21:37.191  INFO: datastax_3_1_4.CassandraClientMain - progress = 80, time = 1387646175
+2022-05-08/03:21:37.195  INFO: datastax_3_1_4.CassandraClientMain - progress = 81, time = 1391314644
+2022-05-08/03:21:37.198  INFO: datastax_3_1_4.CassandraClientMain - progress = 82, time = 1394338986
+2022-05-08/03:21:37.202  INFO: datastax_3_1_4.CassandraClientMain - progress = 83, time = 1398332874
+2022-05-08/03:21:37.205  INFO: datastax_3_1_4.CassandraClientMain - progress = 84, time = 1401745180
+2022-05-08/03:21:37.209  INFO: datastax_3_1_4.CassandraClientMain - progress = 85, time = 1405407905
+2022-05-08/03:21:37.213  INFO: datastax_3_1_4.CassandraClientMain - progress = 86, time = 1409410963
+2022-05-08/03:21:37.217  INFO: datastax_3_1_4.CassandraClientMain - progress = 87, time = 1413295456
+2022-05-08/03:21:37.220  INFO: datastax_3_1_4.CassandraClientMain - progress = 88, time = 1416487925
+2022-05-08/03:21:37.224  INFO: datastax_3_1_4.CassandraClientMain - progress = 89, time = 1420724195
+2022-05-08/03:21:37.229  INFO: datastax_3_1_4.CassandraClientMain - progress = 90, time = 1425716195
+2022-05-08/03:21:37.240  INFO: datastax_3_1_4.CassandraClientMain - progress = 91, time = 1435983551
+2022-05-08/03:21:37.244  INFO: datastax_3_1_4.CassandraClientMain - progress = 92, time = 1440280151
+2022-05-08/03:21:37.248  INFO: datastax_3_1_4.CassandraClientMain - progress = 93, time = 1444634181
+2022-05-08/03:21:37.252  INFO: datastax_3_1_4.CassandraClientMain - progress = 94, time = 1448541684
+2022-05-08/03:21:37.257  INFO: datastax_3_1_4.CassandraClientMain - progress = 95, time = 1453527052
+2022-05-08/03:21:37.262  INFO: datastax_3_1_4.CassandraClientMain - progress = 96, time = 1458964153
+2022-05-08/03:21:37.270  INFO: datastax_3_1_4.CassandraClientMain - progress = 97, time = 1466077109
+2022-05-08/03:21:37.275  INFO: datastax_3_1_4.CassandraClientMain - progress = 98, time = 1471044177
+2022-05-08/03:21:37.279  INFO: datastax_3_1_4.CassandraClientMain - progress = 99, time = 1475221333
+2022-05-08/03:21:37.283  INFO: datastax_3_1_4.CassandraClientMain - progress = 100, time = 1479283870
+2022-05-08/03:21:37.287  INFO: datastax_3_1_4.CassandraClientMain - progress = 101, time = 1483413009
+2022-05-08/03:21:37.293  INFO: datastax_3_1_4.CassandraClientMain - progress = 102, time = 1489817811
+2022-05-08/03:21:37.299  INFO: datastax_3_1_4.CassandraClientMain - progress = 103, time = 1495323885
+2022-05-08/03:21:37.312  INFO: datastax_3_1_4.CassandraClientMain - progress = 104, time = 1508977030
+2022-05-08/03:21:37.317  INFO: datastax_3_1_4.CassandraClientMain - progress = 105, time = 1513369222
+2022-05-08/03:21:37.321  INFO: datastax_3_1_4.CassandraClientMain - progress = 106, time = 1517190718
+2022-05-08/03:21:37.324  INFO: datastax_3_1_4.CassandraClientMain - progress = 107, time = 1520913153
+2022-05-08/03:21:37.332  INFO: datastax_3_1_4.CassandraClientMain - progress = 108, time = 1528122272
+2022-05-08/03:21:37.337  INFO: datastax_3_1_4.CassandraClientMain - progress = 109, time = 1533054347
+2022-05-08/03:21:37.340  INFO: datastax_3_1_4.CassandraClientMain - progress = 110, time = 1536783818
+2022-05-08/03:21:37.345  INFO: datastax_3_1_4.CassandraClientMain - progress = 111, time = 1541898655
+2022-05-08/03:21:37.357  INFO: datastax_3_1_4.CassandraClientMain - progress = 112, time = 1553209589
+2022-05-08/03:21:37.362  INFO: datastax_3_1_4.CassandraClientMain - progress = 113, time = 1558984214
+2022-05-08/03:21:37.371  INFO: datastax_3_1_4.CassandraClientMain - progress = 114, time = 1567581069
+2022-05-08/03:21:37.375  INFO: datastax_3_1_4.CassandraClientMain - progress = 115, time = 1571675174
+2022-05-08/03:21:37.379  INFO: datastax_3_1_4.CassandraClientMain - progress = 116, time = 1575589547
+2022-05-08/03:21:37.382  INFO: datastax_3_1_4.CassandraClientMain - progress = 117, time = 1578650740
+2022-05-08/03:21:37.385  INFO: datastax_3_1_4.CassandraClientMain - progress = 118, time = 1581679804
+2022-05-08/03:21:37.388  INFO: datastax_3_1_4.CassandraClientMain - progress = 119, time = 1584582508
+2022-05-08/03:21:37.391  INFO: datastax_3_1_4.CassandraClientMain - progress = 120, time = 1587489032
+2022-05-08/03:21:37.394  INFO: datastax_3_1_4.CassandraClientMain - progress = 121, time = 1590737416
+2022-05-08/03:21:37.399  INFO: datastax_3_1_4.CassandraClientMain - progress = 122, time = 1595326406
+2022-05-08/03:21:37.403  INFO: datastax_3_1_4.CassandraClientMain - progress = 123, time = 1599252901
+2022-05-08/03:21:37.407  INFO: datastax_3_1_4.CassandraClientMain - progress = 124, time = 1603568133
+2022-05-08/03:21:37.411  INFO: datastax_3_1_4.CassandraClientMain - progress = 125, time = 1607028475
+2022-05-08/03:21:37.414  INFO: datastax_3_1_4.CassandraClientMain - progress = 126, time = 1610918749
+2022-05-08/03:21:37.418  INFO: datastax_3_1_4.CassandraClientMain - progress = 127, time = 1614715353
+2022-05-08/03:21:37.424  INFO: datastax_3_1_4.CassandraClientMain - progress = 128, time = 1620953203
+2022-05-08/03:21:37.428  INFO: datastax_3_1_4.CassandraClientMain - progress = 129, time = 1624561406
+2022-05-08/03:21:37.431  INFO: datastax_3_1_4.CassandraClientMain - progress = 130, time = 1627556821
+2022-05-08/03:21:37.434  INFO: datastax_3_1_4.CassandraClientMain - progress = 131, time = 1630532780
+2022-05-08/03:21:37.437  INFO: datastax_3_1_4.CassandraClientMain - progress = 132, time = 1633223245
+2022-05-08/03:21:37.440  INFO: datastax_3_1_4.CassandraClientMain - progress = 133, time = 1636323981
+2022-05-08/03:21:37.444  INFO: datastax_3_1_4.CassandraClientMain - progress = 134, time = 1640017600
+2022-05-08/03:21:37.447  INFO: datastax_3_1_4.CassandraClientMain - progress = 135, time = 1643477371
+2022-05-08/03:21:37.450  INFO: datastax_3_1_4.CassandraClientMain - progress = 136, time = 1646457844
+2022-05-08/03:21:37.453  INFO: datastax_3_1_4.CassandraClientMain - progress = 137, time = 1649290323
+2022-05-08/03:21:37.456  INFO: datastax_3_1_4.CassandraClientMain - progress = 138, time = 1652372160
+2022-05-08/03:21:37.459  INFO: datastax_3_1_4.CassandraClientMain - progress = 139, time = 1655370087
+2022-05-08/03:21:37.462  INFO: datastax_3_1_4.CassandraClientMain - progress = 140, time = 1658221871
+2022-05-08/03:21:37.465  INFO: datastax_3_1_4.CassandraClientMain - progress = 141, time = 1661104212
+2022-05-08/03:21:37.467  INFO: datastax_3_1_4.CassandraClientMain - progress = 142, time = 1663849108
+2022-05-08/03:21:37.470  INFO: datastax_3_1_4.CassandraClientMain - progress = 143, time = 1666717092
+2022-05-08/03:21:37.473  INFO: datastax_3_1_4.CassandraClientMain - progress = 144, time = 1669533453
+2022-05-08/03:21:37.476  INFO: datastax_3_1_4.CassandraClientMain - progress = 145, time = 1672460840
+2022-05-08/03:21:37.479  INFO: datastax_3_1_4.CassandraClientMain - progress = 146, time = 1675170720
+2022-05-08/03:21:37.482  INFO: datastax_3_1_4.CassandraClientMain - progress = 147, time = 1678040977
+2022-05-08/03:21:37.484  INFO: datastax_3_1_4.CassandraClientMain - progress = 148, time = 1680498934
+2022-05-08/03:21:37.487  INFO: datastax_3_1_4.CassandraClientMain - progress = 149, time = 1683251646
+2022-05-08/03:21:37.490  INFO: datastax_3_1_4.CassandraClientMain - progress = 150, time = 1686146215
+2022-05-08/03:21:37.493  INFO: datastax_3_1_4.CassandraClientMain - progress = 151, time = 1689127872
+2022-05-08/03:21:37.495  INFO: datastax_3_1_4.CassandraClientMain - progress = 152, time = 1691822536
+2022-05-08/03:21:37.498  INFO: datastax_3_1_4.CassandraClientMain - progress = 153, time = 1694453191
+2022-05-08/03:21:37.501  INFO: datastax_3_1_4.CassandraClientMain - progress = 154, time = 1697367753
+2022-05-08/03:21:37.503  INFO: datastax_3_1_4.CassandraClientMain - progress = 155, time = 1700002390
+2022-05-08/03:21:37.507  INFO: datastax_3_1_4.CassandraClientMain - progress = 156, time = 1703274410
+2022-05-08/03:21:37.510  INFO: datastax_3_1_4.CassandraClientMain - progress = 157, time = 1706493920
+2022-05-08/03:21:37.513  INFO: datastax_3_1_4.CassandraClientMain - progress = 158, time = 1709757058
+2022-05-08/03:21:37.516  INFO: datastax_3_1_4.CassandraClientMain - progress = 159, time = 1712653306
+2022-05-08/03:21:37.519  INFO: datastax_3_1_4.CassandraClientMain - progress = 160, time = 1715241939
+2022-05-08/03:21:37.521  INFO: datastax_3_1_4.CassandraClientMain - progress = 161, time = 1717972545
+2022-05-08/03:21:37.526  INFO: datastax_3_1_4.CassandraClientMain - progress = 162, time = 1722712018
+2022-05-08/03:21:37.529  INFO: datastax_3_1_4.CassandraClientMain - progress = 163, time = 1725292325
+2022-05-08/03:21:37.532  INFO: datastax_3_1_4.CassandraClientMain - progress = 164, time = 1728217328
+2022-05-08/03:21:37.534  INFO: datastax_3_1_4.CassandraClientMain - progress = 165, time = 1730529894
+2022-05-08/03:21:37.537  INFO: datastax_3_1_4.CassandraClientMain - progress = 166, time = 1733454327
+2022-05-08/03:21:37.540  INFO: datastax_3_1_4.CassandraClientMain - progress = 167, time = 1736229741
+2022-05-08/03:21:37.543  INFO: datastax_3_1_4.CassandraClientMain - progress = 168, time = 1739165138
+2022-05-08/03:21:37.545  INFO: datastax_3_1_4.CassandraClientMain - progress = 169, time = 1741943130
+2022-05-08/03:21:37.548  INFO: datastax_3_1_4.CassandraClientMain - progress = 170, time = 1744888953
+2022-05-08/03:21:37.551  INFO: datastax_3_1_4.CassandraClientMain - progress = 171, time = 1747841427
+2022-05-08/03:21:37.558  INFO: datastax_3_1_4.CassandraClientMain - progress = 172, time = 1754941377
+2022-05-08/03:21:37.561  INFO: datastax_3_1_4.CassandraClientMain - progress = 173, time = 1757830418
+2022-05-08/03:21:37.564  INFO: datastax_3_1_4.CassandraClientMain - progress = 174, time = 1760740225
+2022-05-08/03:21:37.567  INFO: datastax_3_1_4.CassandraClientMain - progress = 175, time = 1763430434
+2022-05-08/03:21:37.570  INFO: datastax_3_1_4.CassandraClientMain - progress = 176, time = 1766241573
+2022-05-08/03:21:37.573  INFO: datastax_3_1_4.CassandraClientMain - progress = 177, time = 1769056694
+2022-05-08/03:21:37.576  INFO: datastax_3_1_4.CassandraClientMain - progress = 178, time = 1772133745
+2022-05-08/03:21:37.579  INFO: datastax_3_1_4.CassandraClientMain - progress = 179, time = 1775538121
+2022-05-08/03:21:37.581  INFO: datastax_3_1_4.CassandraClientMain - progress = 180, time = 1777974435
+2022-05-08/03:21:37.584  INFO: datastax_3_1_4.CassandraClientMain - progress = 181, time = 1780641296
+2022-05-08/03:21:37.586  INFO: datastax_3_1_4.CassandraClientMain - progress = 182, time = 1782982762
+2022-05-08/03:21:37.589  INFO: datastax_3_1_4.CassandraClientMain - progress = 183, time = 1785308765
+2022-05-08/03:21:37.591  INFO: datastax_3_1_4.CassandraClientMain - progress = 184, time = 1787964699
+2022-05-08/03:21:37.594  INFO: datastax_3_1_4.CassandraClientMain - progress = 185, time = 1790527843
+2022-05-08/03:21:37.597  INFO: datastax_3_1_4.CassandraClientMain - progress = 186, time = 1793052658
+2022-05-08/03:21:37.599  INFO: datastax_3_1_4.CassandraClientMain - progress = 187, time = 1795496777
+2022-05-08/03:21:37.602  INFO: datastax_3_1_4.CassandraClientMain - progress = 188, time = 1798090253
+2022-05-08/03:21:37.604  INFO: datastax_3_1_4.CassandraClientMain - progress = 189, time = 1800270864
+2022-05-08/03:21:37.606  INFO: datastax_3_1_4.CassandraClientMain - progress = 190, time = 1802461508
+2022-05-08/03:21:37.608  INFO: datastax_3_1_4.CassandraClientMain - progress = 191, time = 1804605487
+2022-05-08/03:21:37.610  INFO: datastax_3_1_4.CassandraClientMain - progress = 192, time = 1806920855
+2022-05-08/03:21:37.612  INFO: datastax_3_1_4.CassandraClientMain - progress = 193, time = 1808940966
+2022-05-08/03:21:37.614  INFO: datastax_3_1_4.CassandraClientMain - progress = 194, time = 1810760104
+2022-05-08/03:21:37.616  INFO: datastax_3_1_4.CassandraClientMain - progress = 195, time = 1812465002
+2022-05-08/03:21:37.622  INFO: datastax_3_1_4.CassandraClientMain - progress = 196, time = 1818460119
+2022-05-08/03:21:37.624  INFO: datastax_3_1_4.CassandraClientMain - progress = 197, time = 1820521983
+2022-05-08/03:21:37.626  INFO: datastax_3_1_4.CassandraClientMain - progress = 198, time = 1822733928
+2022-05-08/03:21:37.628  INFO: datastax_3_1_4.CassandraClientMain - progress = 199, time = 1824975981
+2022-05-08/03:21:37.631  INFO: datastax_3_1_4.CassandraClientMain - progress = 200, time = 1827290109
+2022-05-08/03:21:37.632 DEBUG: core.Connection - Connection[/127.0.0.1:9047-1, inFlight=0, closed=true] closing connection
+2022-05-08/03:21:37.632 DEBUG: Host.STATES - [/127.0.0.1:9047] Connection[/127.0.0.1:9047-1, inFlight=0, closed=true] closed, remaining = 0
+2022-05-08/03:21:37.634 DEBUG: core.Connection - Connection[/127.0.0.2:9047-2, inFlight=0, closed=true] closing connection
+2022-05-08/03:21:37.634 DEBUG: Host.STATES - [/127.0.0.2:9047] Connection[/127.0.0.2:9047-2, inFlight=0, closed=true] closed, remaining = 1
+2022-05-08/03:21:37.634 DEBUG: core.Connection - Connection[/127.0.0.3:9047-1, inFlight=0, closed=true] closing connection
+2022-05-08/03:21:37.634 DEBUG: Host.STATES - [/127.0.0.3:9047] Connection[/127.0.0.3:9047-1, inFlight=0, closed=true] closed, remaining = 0
+2022-05-08/03:21:37.634 DEBUG: core.Cluster - Shutting down
+2022-05-08/03:21:37.636 DEBUG: core.Connection - Connection[/127.0.0.2:9047-1, inFlight=0, closed=true] closing connection
+2022-05-08/03:21:37.636 DEBUG: Host.STATES - [/127.0.0.2:9047] Connection[/127.0.0.2:9047-1, inFlight=0, closed=true] closed, remaining = 0
+2022-05-08/03:21:39.843 DEBUG: buffer.PoolThreadCache - Freed 4 thread-local buffer(s) from thread: cluster1-nio-worker-2
+2022-05-08/03:21:39.843 DEBUG: buffer.PoolThreadCache - Freed 33 thread-local buffer(s) from thread: cluster1-nio-worker-4
+2022-05-08/03:21:39.843 DEBUG: buffer.PoolThreadCache - Freed 25 thread-local buffer(s) from thread: cluster1-nio-worker-0
+2022-05-08/03:21:39.844 DEBUG: buffer.PoolThreadCache - Freed 4 thread-local buffer(s) from thread: cluster1-nio-worker-6
