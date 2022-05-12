@@ -96,5 +96,7 @@ store-*
 logs-*
 src-*
 client-*
+origin-cassandra
+fault-cassandra
 
 # End of https://www.toptal.com/developers/gitignore/api/maven,vim,macos,java
